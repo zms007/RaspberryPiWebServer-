@@ -1,0 +1,18 @@
+In this project, your Raspberry Pi will be connected to the internet via RJ45 network cable. 
+Setup your Raspberry Pi to operate as a web server. 
+Hosting a website on your own isn’t hard – in fact, you can do it on your Raspberry Pi with nothing more than a Raspbian installation and a little command line work. 
+You should use Raspbian and install several packages that give the Pi the ability to be a web server. 
+Configure your tablet so that it can access your Pi web server. 
+
+======================
+
+To host a web server on a Raspberry Pi, we will use a popular software bundle known as the LEMP stack, which stands for Linux, nginx, MySQL, and PHP. This combination allows us to create a fully functional and dynamic web server.
+
+Here’s a quick breakdown of the components:
+--------
+- Linux serves as the operating system running on the Raspberry Pi.
+- nginx (pronounced "engine-x") functions as the web server software that handles client requests.
+- MySQL is the database management system used to store and manage data.
+- PHP processes dynamic content and connects the web server to the database.
+- For this setup, Raspbian (a Debian-based Linux distribution optimized for Raspberry Pi) will be our operating system. Once you have Raspbian installed and running smoothly on your Raspberry Pi, installing and configuring the rest of the stack is straightforward and manageable, even for beginners!
+
